@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Client Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div id="logo">"NAME"</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <img src="images/dale-carnegie-portofolio.jpg" alt="Profile Image" id="profile-img"/>
+    <h1>Dale Carnegie</h1>
+    <p>A passionate front-end developer with a flair for building responsive and user-friendly web applications.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">
+        <img src="images/html5-png.png" alt="HTML5"/>
+        <p>HTML5</p>
+      </div>
+      <div class="skill">
+        <img src="images/css3-png.png" alt="CSS3"/>
+        <p>CSS3</p>
+      </div>
+      <div class="skill">
+        <img src="images/js-png.png" alt="JavaScript"/>
+        <p>JavaScript</p>
+      </div>
+      <div class="skill">
+        <img src="images/swiftui-png.png" alt="JavaScript"/>
+        <p>SwiftUI</p>
+      </div>
+      <div class="skill">
+        <img src="images/rust-png.png" alt="JavaScript"/>
+        <p>Rust</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Calculator</h3>
+      <p>Built a live weather forecast app using OpenWeatherMap API and JavaScript.</p>
+    </div>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>Designed a personal portfolio using HTML, CSS, and Bootstrap.</p>
+    </div>
+    <div class="project">
+      <h3>Task Manager</h3>
+      <p>A to-do list manager with CRUD operations built using local storage.</p>
+    </div>
+  </section>
+
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div id="recommendation-list">
+      <blockquote>"Dale Carnegie is a fast learner and a great team player." - Jane Smith</blockquote>
+      <blockquote>"Delivered high-quality code on time." - Mike Johnson</blockquote>
+      <blockquote>"An asset to any front-end team." - Sarah Lee</blockquote>
+    </div>
+    <form id="recommendation-form">
+      <textarea id="new-rec" placeholder="Write your recommendation..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <a href="#top" id="home-icon">🏠</a>
+  </footer>
+  <div id="popup-message">Thank you for leaving a recommendation!</div>
+</body>
+</html>
