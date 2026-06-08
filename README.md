@@ -1,4 +1,4 @@
-One of my favorite web site designs.
+One of my favorite web site designs. Because it's very simple.
 
 ## Screebshots
 
